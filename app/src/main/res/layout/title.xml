@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#fff"
+    >
+    <Button
+        android:id="@+id/classify"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/title_class"/>
+
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/title_search">
+
+        <EditText
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:textColor="#ccc"
+            android:background="#eeeeee"
+            android:hint="搜索"
+            />
+
+        <ImageButton
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/pic_search"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/attention"
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/title_atten"/>
+
+</LinearLayout>
